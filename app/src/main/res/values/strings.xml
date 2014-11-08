@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Who\'s Driving?</string>
+    <string name="instruct">Enter the names of your drivers below.</string>
+    <string name="action_erase">Erase</string>
+    <string name="ok">Ok</string>
+    <string name="SomeoneIsDriving">Someone</string>
+    <string name="app_about">This app allows you to end the never ending debate of who\'s going to drive.</string>
+    <string name="app_credits">This app was created by Blake Peterman. \nCheck out his website at:\nhttp://blakepeterman.com</string>
+
+
+
+</resources>

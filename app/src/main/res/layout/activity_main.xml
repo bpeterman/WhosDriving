@@ -1,0 +1,65 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:fillViewport="false"
+    android:id="@+id/scroll">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="10dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:id="@+id/linearLayout">
+        <TextView
+            android:text="@string/instruct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"/>
+        <EditText
+            android:id="@+id/driver1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Driver 1"
+            android:inputType="textCapWords|textPersonName"
+            />
+        <EditText
+            android:id="@+id/driver2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Driver 2"
+            android:inputType="textCapWords|textPersonName"
+            />
+        <EditText
+            android:id="@+id/driver3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Driver 3"
+            android:inputType="textCapWords|textPersonName"
+            />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/moreBoxes"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="+ Add Driver"
+            />
+        <Button
+            android:id="@+id/choose"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose Driver"
+            />
+    </LinearLayout>
+
+</ScrollView>
